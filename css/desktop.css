@@ -1,0 +1,80 @@
+body{
+    background-image: 
+    url(/assets/image/bg-pattern-top-desktop.svg),
+    url(/assets/image/bg-pattern-bottom-desktop.svg);     
+    height: 100vh;
+    display: flex;    
+}
+
+.container{    
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;  
+    min-width: 1010px;   
+}
+
+.header,
+.review-container{    
+    width: 500px;    
+}
+
+.header{
+    text-align: left;
+}
+
+.header__title{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header__text{
+    margin: 0;    
+}
+
+.review-container{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;       
+}
+
+.review:nth-child(2){       
+    margin: 0 auto;
+    
+}
+
+.review:last-child{       
+    margin-left:  auto;
+}
+
+.review{    
+    flex-direction: row;     
+   
+}
+
+.review__star{
+    margin: 0 2rem;
+}
+
+.review__title{
+    margin-right: 5rem;
+}
+
+.testimonials-container{     
+    min-width: 1010px; 
+    height: 320px; 
+    display: flex;  
+    justify-content: space-between;
+    align-items: center ;   
+}
+
+.testimonials:first-child{
+    align-self: flex-start;
+
+}
+
+.testimonials:last-child{
+    align-self: flex-end;    
+}
+
+

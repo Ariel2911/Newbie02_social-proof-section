@@ -1,0 +1,122 @@
+:root{
+    /* primary */
+    --d-m: hsl(300, 43%, 22%); /*dark-magent*/
+    --s-p: hsl(333, 80%, 67%); /*soft-pink*/
+    /* neutral */
+    --D-G-M: hsl(303, 10%, 53%); /*Dark Grayish Magenta*/
+    --L-G-M: hsl(300, 24%, 96%); /*Light Grayish Magenta*/
+    --White: hsl(0, 0%, 100%);
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Spartan', sans-serif;    
+    margin: 5rem 0;     
+    background-image: 
+    url(/assets/image/bg-pattern-top-mobile.svg),
+    url(/assets/image/bg-pattern-bottom-mobile.svg); 
+    background-repeat: no-repeat;
+    background-position: top 0 left 0, bottom 0 right 0;   
+}
+
+/*revisar*/
+
+
+
+
+.container{    
+    width: 332px;
+    /* box-sizing: border-box; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;  
+    /* justify-content: center;
+    align-items: center;   */
+}
+
+.header{    
+    text-align: center;
+}
+
+.header__title{
+    font-weight: 700; 
+    color: var(--d-m);    
+}
+
+.header__text{
+    color: var(--D-G-M);
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+/*
+review
+*/
+
+.review-container{
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.review{
+    background-color: var(--L-G-M);   
+    line-height: 3rem;
+    border-radius: 10px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+    margin: 1rem 0;
+}
+
+.review__title{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/*
+testimonials
+*/
+
+.testimonials{    
+    width: 272px;
+    height: 173px;
+    background-color: var(--d-m);
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 2rem;
+    color: var(--White);    
+}
+
+.testimonials__header{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1rem;   
+}
+
+.testimonials__title,
+.testimonials__subtitle,
+.testimonials__text{    
+    margin: 5px;
+    font-size: 13px;
+}
+
+.testimonials__subtitle{
+    color: var(--s-p);
+}
+
+.testimonials__img{ 
+    display: block;
+    width: 40px;
+    border-radius: 50%;     
+}
+
+.testimonials__container-title{
+    margin-left: 1.5rem;
+}
+.testimonials__text{    
+    line-height: 1.5rem;   
+    margin: 0;    
+}
